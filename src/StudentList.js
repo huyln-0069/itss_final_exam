@@ -26,7 +26,9 @@ function StudentList() {
                 onChange={(e) => setNewStudent(e.target.value)}
               />
             </label>
-            <input type='submit' value='確定' />
+            <div style={{ margin: 20, marginLeft: 200 }}>
+              <input type='submit' value='確定' />
+            </div>
           </form>
         </div>
         <div style={{ margin: 20 }}>追加する名前：{newStudent}</div>
