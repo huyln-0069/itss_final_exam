@@ -5,7 +5,6 @@ const AddStudentHook = () => {
 
   const addStudent = (newStudent) => {
     setStudents([...students, newStudent]);
-    console.log(students);
   };
 
   return {
